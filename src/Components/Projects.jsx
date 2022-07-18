@@ -1,16 +1,11 @@
 import React from 'react';
 import Lakshya from './ProjectCards/Lakshya';
-import project from '../Assets/project.svg';
 import EventTick from './ProjectCards/EventTick';
 import Grocery from './ProjectCards/Grocery';
 import CrossClip from './ProjectCards/CrossClip';
 import ScreenSort from './ProjectCards/ScreenSort';
 
 function Projects() {
-  const backgroundImageStyle={
-    backgroundImage: `url("${project}")`,
-    backgroundSize: 'contain',
-  };
   return (
     <>
     <div className=" w-100 grid bg-[#4f4f4f]">

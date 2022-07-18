@@ -1,17 +1,6 @@
-import React, { useRef } from 'react'
-import skills_svg from '../Assets/skills_svg.svg';
-import skills_svg0 from '../Assets/skills_svg0.svg'
 
 
 function KnownSkills() {
-  const backgroundImageStyle={
-    backgroundImage: `url("${skills_svg}")`,
-    backgroundSize: 'cover',
-  };
-  const backgroundImageStyle0={
-    backgroundImage: `url("${skills_svg0}")`,
-    backgroundSize: 'cover',
-  };
   return (
     <>
     {/* <div className='h-32 lg:h-56 xl:h-96' style={backgroundImageStyle0}></div> */}

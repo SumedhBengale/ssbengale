@@ -1,17 +1,11 @@
 import React from 'react'
 import TypeAnimation from 'react-type-animation';
-import intro_svg from '../Assets/intro_svg.svg';
  import image from '../Assets/image.jpg';
- import './cursor.css';
-import KnownSkills from './KnownSkills';
+ import './Cursor.css';
 import instagram from '../Assets/instagram.svg';
 
 
 function MyIntro() {
-  const backgroundImageStyle={
-    backgroundImage: `url("${intro_svg}")`,
-    backgroundSize: 'cover',
-  };
   return (
     <>
       <div className="h-full w-full bg-[#4f4f4f] grid grid-cols-12">
