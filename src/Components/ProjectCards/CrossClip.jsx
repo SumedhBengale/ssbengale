@@ -10,8 +10,8 @@ function CrossClip() {
             <p className='lg:text-md text-xs text-start'>With Cross Clip, the user can send text and files between their Android and Windows devices over the local network.</p>
             <p className='lg:text-md text-xs text-start'>For sharing files, the file's and the sender's information is shared in real-time using a Firebase database.</p>
             <p className='lg:text-md text-xs text-start'>The sender opens a TCP port and the reciever sends a request for the file to the same port.</p>
-            <p className='lg:text-md text-xs text-start'>The tech stack for this project was- Flutter and Firebase</p>
-            <p className='lg:text-md text-xs text-start'>There are Windows and Android clients avaliable for the App</p>
+            <p className='lg:text-md text-xs text-start'>The tech stack for this project was- Flutter and Firebase.</p>
+            <p className='lg:text-md text-xs text-start'>There are Windows and Android clients avaliable for the App.</p>
             <p className='lg:text-md text-xs text-start'>I was the single developer for this project.</p>
             <div class="grid grid-cols-2 lg:gap-5 lg:pt-5">
                 <div className='flex justify-start items-center '>
