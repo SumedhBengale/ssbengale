@@ -1,7 +1,6 @@
 import React from 'react'
 import TypeAnimation from 'react-type-animation';
  import image from '../Assets/image.jpg';
- import './Cursor.css';
 import instagram from '../Assets/instagram.svg';
 
 
@@ -18,28 +17,33 @@ function MyIntro() {
           </div>
           <div className='lg:pl-10 pl-0 text-center lg:text-start pt-5 lg:pt-0'>
           <TypeAnimation
-            sequence={[1000,"Hi!"]}
-            className='md:text-5xl text-3xl text-white font-arvo font-extrabold cursor0'
+              cursor={false}
+              sequence={[1000,"Hi!"]}
+              className='md:text-5xl text-3xl text-white font-arvo font-extrabold after:content-["|"] after:animate-cursor0anim'
             >
             </TypeAnimation>
             <div className='flex lg:justify-start justify-center'>
               <TypeAnimation
-              sequence={[2500,"I'm Sumedh"]}
-              className='md:text-5xl text-3xl text-white font-arvo font-extrabold cursor1'
+                cursor={false}
+                sequence={[2500,"I'm Sumedh"]}
+                className='md:text-5xl text-3xl text-white font-arvo font-extrabold after:content-["|"] after:animate-cursor1anim'
               > 
                 </TypeAnimation>
                 <TypeAnimation
                 cursor={false}
-              sequence={[4000,"👋"]}
-              className='md:text-4xl text-3xl text-white font-arvo font-extrabold translate-y-10 animate-[wave_5s_ease-in-out_infinite]'
+                sequence={[4000,"👋"]}
+                className='md:text-4xl text-3xl text-white font-arvo font-extrabold translate-y-10 animate-[wave_5s_ease-in-out_infinite]'
               > 
                 </TypeAnimation>
               </div>
 
-            <TypeAnimation
-            sequence={[4500,'Third Year Engineering Student, currently leaning', 1000,"Third Year Engineering Student, currently learning Flutter and Web Development."]}
-            className='md:text-xl text-md pt-5 text-white font-arvo font-extrabold cursor2'
-            ></TypeAnimation>
+              <TypeAnimation
+                cursor={false}
+                sequence={[4500,'Third Year Engineering Student, currently leaning', 1000,"Third Year Engineering Student, currently learning Flutter and Web Development."]}
+                className='md:text-xl text-md pt-5 text-white font-arvo font-extrabold after:content-["|"] after:animate-cursor2anim'
+              >
+
+            </TypeAnimation>
           </div>
         </div>
       </div>
